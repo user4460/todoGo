@@ -6,6 +6,8 @@ generator client {
 }
 
 datasource db {
+  //providerとは、どのデータベースを使うかを指定する
   provider = "postgresql"
+  //urlは、データベースの接続情報を指定する
   url      = env("DATABASE_URL")
 }

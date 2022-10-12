@@ -4,7 +4,8 @@ import "github.com/gin-gonic/gin"
 
 import "net/http"
 
-//
+//https://gin-gonic.com/docs/quickstart/のサンプルコード
+
 func main() {
     //default()とは、デフォルトの設定でginのインスタンスを作成する関数
     engine:= gin.Default()

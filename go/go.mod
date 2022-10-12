@@ -1,3 +1,4 @@
+//go.modとは、go mod initで作成されるファイルで、go.modとgo.sumの2つがある。
 module todogo
 
 go 1.19

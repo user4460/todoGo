@@ -14,4 +14,4 @@ func main() {
     engine.Run(":3000")
 }
 
-export GIN_MODE=release
+//export GIN_MODE=release

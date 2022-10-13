@@ -1,7 +1,7 @@
 //httpコード
 //https://gin-gonic.com/docs/testing/
 
-package http
+package lib
 
 import "github.com/gin-gonic/gin"
 

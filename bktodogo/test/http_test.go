@@ -1,6 +1,6 @@
 //httpコード　テスト
 //https://gin-gonic.com/docs/testing/
-package http_test
+package test
 
 import (
 	"net/http"
@@ -8,6 +8,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
+	 "github.com/gin-gonic/setupRouter"
 )
 
 func TestPingRoute(t *testing.T) {

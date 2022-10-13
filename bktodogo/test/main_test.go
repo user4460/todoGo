@@ -1,5 +1,5 @@
 //テストとは、
-package main
+package test
 
 import "testing"
 

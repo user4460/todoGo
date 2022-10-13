@@ -18,6 +18,25 @@ func main() {
     })
     //runメソッドでポート番号を指定してサーバーを起動する
     engine.Run(":3000")
+
+    //
+   // engine.Post("/post", func(c *gin.Context) {
+     //   c.JSON(http.StatusOK, gin.H{
+       //     "message": "post",
+        //})}
+
+    //
+    //engine.PUT("/put", func(c *gin.Context) {
+    //    c.JSON(http.StatusOK, gin.H{
+    //        "message": "put",
+    //    })
+
+    //engine.DELETE("/delete", func(c *gin.Context) {
+    //    c.JSON(http.StatusOK, gin.H{
+    //        "message": "delete",
+    //    })
+    //})
+
 }
 
 //export GIN_MODE=release

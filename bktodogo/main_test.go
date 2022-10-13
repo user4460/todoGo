@@ -31,6 +31,3 @@ func TestAdd(t *testing.T) {
 		})
 	}
 }
-
-//main_test.go
-//

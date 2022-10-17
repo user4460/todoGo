@@ -11,5 +11,18 @@ func TestCreate(t *testing.T) {
 	gin.SetMode(gin.TestMode)
 	// Assertions
 	assert := assert.New(t)
-	assert.Equal(1, 1, "they should be equal")
+	assert.Equal(1, 1, "todoを作成する")
 }
+
+/*
+
+describe("todoを作成する", () => {
+   const email = "test@example.com";
+   const password = "123456";
+
+   it("Login by firebase authentication", () => {
+      console.log(email);
+   });
+});
+
+*/

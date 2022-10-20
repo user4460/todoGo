@@ -1,14 +1,19 @@
 #codecovとは、コードカバレッジを可視化するサービス
 #https://codecov.io/
 comment: off
+#github_checksとは、githubのchecks機能を使うかどうか
 github_checks:
   annotations: false
+  #coverageとは、コードカバレッジのこと、コードカバレッジとは、テストコードがどれくらいの割合で実行されたかを表す指標
 coverage:
   status:
+  #patchとは、プルリクエストの差分のコードカバレッジを表す指標
     patch:
       default:
         target: 95%
+
         only_pulls: true
     project:
       default:
+      #thresholdとは、コードカバレッジのしきい値
         threshold: 1%

@@ -1,5 +1,5 @@
-//shell.nixとは、nix-shellで実行されるコマンドを記述するファイルです。
-//nixとは、NixOSのシェルを使うための設定ファイルです。
+#shell.nixとは、nix-shellで実行されるコマンドを記述するファイルです。
+#nixとは、NixOSのシェルを使うための設定ファイルです。
 { dappPkgs ? (
     import (fetchTarball "https://github.com/makerdao/makerpkgs/tarball/master") {}
   ).dappPkgsVersions.hevm-0_43_1
